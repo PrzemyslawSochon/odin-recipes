@@ -11,6 +11,7 @@ h1 {
 ul, ol {
     padding: 5px;
     margin: 5px;
+    min-width: 500px;
     width: 50%;
     margin: 0 auto;
 }
@@ -19,4 +20,10 @@ ul > li, ol > li {
 }
 ul > li:nth-of-type(odd), ol > li:nth-of-type(odd) {
     background-color: #e9e9f9 ;
+}
+
+.instructions-container {
+    min-width: 500px;
+    width: 50%;
+    margin: 0 auto;
 }
