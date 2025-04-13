@@ -27,3 +27,12 @@ ul > li:nth-of-type(odd), ol > li:nth-of-type(odd) {
     width: 50%;
     margin: 0 auto;
 }
+
+img {
+    display: block;
+    padding: 10px;
+    background-color: #e9e9f9;
+    border: solid 1px #111111;
+    width: 360px;
+    margin: 0 auto;
+}
