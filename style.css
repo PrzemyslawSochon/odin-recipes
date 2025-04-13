@@ -8,3 +8,15 @@ body {
     text-align: center;
 }
 
+.recipes-list {
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+ul.recipes-list > li {
+    padding: 6px;
+}
+ul.recipes-list > li:nth-of-type(odd) {
+    background-color: #e9e9f9 ;
+}
