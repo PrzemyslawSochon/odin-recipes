@@ -8,15 +8,15 @@ h1 {
     text-align: center;
 }
 
-ul {
+ul, ol {
     padding: 5px;
     margin: 5px;
     width: 50%;
     margin: 0 auto;
 }
-ul > li {
+ul > li, ol > li {
     padding: 6px;
 }
-ul > li:nth-of-type(odd) {
+ul > li:nth-of-type(odd), ol > li:nth-of-type(odd) {
     background-color: #e9e9f9 ;
 }
