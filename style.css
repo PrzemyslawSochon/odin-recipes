@@ -4,19 +4,19 @@ body {
     color: #111111;
 }
 
-.home-heading {
+h1 {
     text-align: center;
 }
 
-.recipes-list {
+ul {
     padding: 5px;
     margin: 5px;
     width: 50%;
     margin: 0 auto;
 }
-ul.recipes-list > li {
+ul > li {
     padding: 6px;
 }
-ul.recipes-list > li:nth-of-type(odd) {
+ul > li:nth-of-type(odd) {
     background-color: #e9e9f9 ;
 }
